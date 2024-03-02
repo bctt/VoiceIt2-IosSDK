@@ -36,6 +36,7 @@
 
 
 #pragma mark -  Developer Passed Options
+@property (strong, nonatomic)  NSString * host;
 @property (strong, nonatomic)  NSString * userToVerifyUserId;
 @property (strong, nonatomic)  NSString * thePhrase;
 @property (strong, nonatomic)  NSString * contentLanguage;

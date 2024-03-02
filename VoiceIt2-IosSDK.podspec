@@ -11,7 +11,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'VoiceIt2-IosSDK'
-s.version          = '2.2.7'
+s.version          = '1.0.0'
 s.summary          = 'A pod that lets you add voice and face verification and identification to your iOS apps, brought to you by VoiceIt.'
 
 # This description is used to generate tags and improve search results.
@@ -21,10 +21,10 @@ s.summary          = 'A pod that lets you add voice and face verification and id
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
 s.description      = 'A pod that lets you add voice and face verification and identification to your iOS apps, brought to you by VoiceIt. Now also with basic liveness detection challenges. Please visit https://voiceit.io to learn more and sign up for an account.'
-s.homepage         = 'https://github.com/voiceittech/VoiceIt2-IosSDK'
+s.homepage         = 'https://github.com/bctt/VoiceIt2-IosSDK'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'voiceit' => 'support@voiceit.io' }
-s.source           = { :git => 'https://github.com/voiceittech/VoiceIt2-IosSDK.git', :tag => s.version.to_s }
+s.source           = { :git => 'https://github.com/bctt/VoiceIt2-IosSDK.git', :tag => s.version.to_s }
 
 s.ios.deployment_target = '11.0'
 s.static_framework = true

@@ -10,7 +10,7 @@
 #import "Styles.h"
 #import "Reachability.h"
 
-NSString * const host = @"https://api.voiceit.io/";
+NSString * host = @"https://api.voiceit.io/";
 NSString * const livenessHost = @"https://liveness.voiceit.io/v1/";
 NSString * const platformVersion = @"2.2.7";
 NSString * const platformId = @"41";
@@ -18,7 +18,8 @@ NSString * notificationURL = @"";
 @implementation VoiceItAPITwo
 
 #pragma mark - Constructor
-- (id)init:(UIViewController *)masterViewController apiKey:(NSString *)apiKey apiToken:(NSString *) apiToken {
+- (id)init:(UIViewController *)masterViewController apiKey:(NSString *)apiKey apiToken:(NSString *) apiToken hostOverride:(NSString *) hostOverride {
+    host = hostOverride;
     return [self init:masterViewController apiKey:apiKey apiToken:apiToken styles:nil];
 }
 

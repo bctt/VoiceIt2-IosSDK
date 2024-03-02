@@ -28,7 +28,7 @@
 @property (nonatomic, strong) UIViewController * masterViewController;
 
 #pragma mark - Constructor
-- (id)init:(UIViewController *)masterViewController apiKey:(NSString *)apiKey apiToken:(NSString *) apiToken;
+- (id)init:(UIViewController *)masterViewController apiKey:(NSString *)apiKey apiToken:(NSString *) apiToken hostOverride:(NSString *) hostOverride;
 - (id)init:(UIViewController *)masterViewController apiKey:(NSString *)apiKey apiToken:(NSString *) apiToken styles:(NSMutableDictionary *) styles;
 
 - (void)setNotificationURL:(NSString *) notificationURL;
